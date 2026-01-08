@@ -1,0 +1,78 @@
+/* 🌐 Global Styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+h2, h3 {
+  text-align: center;
+  color: #333;
+  background-color: blue;
+  position: relative;
+  left: 25%;
+  width: 50%;
+  height: 40px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.container {
+  width: 400px;
+  margin: 80px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+input, textarea {
+  width: 50%;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  background-color: orange;
+  position: relative;
+  left: 25%;
+  text-align: center;
+
+}
+.n1{
+    text-align: center;
+}
+
+button {
+  width: 30%;
+  border-radius: 20px;
+  padding: 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 12px;
+  position: relative;
+    left: 35%;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.product-card {
+  background: white;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 6px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.logout-btn {
+  background: #dc2626;
+}
+
+.logout-btn:hover {
+  background: #b91c1c;
+}
